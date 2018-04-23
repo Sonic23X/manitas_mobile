@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Manitas</string>
+    <string name="hint_name">Usuario</string>
+    <string name="hint_email">Correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_confirm_password">Repite Contraseña</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Registrarse</string>
+    <string name="error_message_name">Nombre</string>
+    <string name="error_message_email">Correo Electronico</string>
+    <string name="error_message_password">Contraseña</string>
+    <string name="success_message">Registro completo</string>
+    <string name="text_not_member">Registrate!</string>
+    <string name="text_already_member">Iniciar Sesión</string>
+    <string name="error_email_exists">Usuario registrado</string>
+    <string name="error_password_match">La contraseña no coincide</string>
+    <string name="error_valid_email_password">Error</string>
+    <string name="text_member">Iniciar Sesión</string>
+    <string name="title_activity_main">Main</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_start">Inicio</string>
+    <string name="email_user">example@example.com</string>
+    <string name="name_user">example</string>
+
+    <string name="categoria1">Opciones</string>
+    <string name="users">Usuarios</string>
+    <string name="inventary">Inventario</string>
+    <string name="shop">Ventas</string>
+    <string name="debt">Deudas</string>
+
+    <string name="exit">Salir</string>
+
+    <string-array name="cabecera_usuarios">
+        <item>Nombre</item>
+        <item>Correo</item>
+        <item>Accion</item>
+        <item>Accion</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delaroystudios.sqlitelogin.fragments.UsersFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="198dp">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:id="@+id/user_table"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                </TableLayout>
+            </HorizontalScrollView>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnUser_Update"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="112dp"
+            android:layout_marginLeft="51dp"
+            android:layout_marginStart="51dp"
+            android:text="Actualizar" />
+
+        <Button
+            android:id="@+id/btnDelete_User"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/btnUser_Update"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:text="Borrar" />
+    </RelativeLayout>
+
+</FrameLayout>
